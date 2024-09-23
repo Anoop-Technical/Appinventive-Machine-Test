@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent Landing Page</title>
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <script src="https://kit.fontawesome.com/7414e22221.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="mainWrapper">
+        <header>
+            <nav>
+                <input type="checkbox" id="nav-toggle">
+                <div class="logo"><img src="./images/Logo.svg" alt="Logo"></div>
+                <ul class="links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Packages</a></li>
+                    <li><a href="#projects">FAQ</a></li>
+                    <li><a href="#contact">Community</a></li>
+                </ul>
+                <div class="buttons">
+                    <button class="login-btn">Login</button>
+                    <button class="login-btn">Sign Up</button>
+                </div>
+                <label for="nav-toggle" class="icon-burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </label>
+            </nav>
+            <label for="nav-toggle" class="icon-burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </header>
+
+        <section class="container bannerContainer">
+            <div class="bannerLeft">
+                <div class="content">
+                    <h1>Discover your <span class="favPlace">favorite place</span> <span class="withUs">with us</span>
+                    </h1>
+                    <p>Your journey begins here with our curated travel experiences. Discover new horizons, create
+                        lasting memories, and explore the world with our expertly crafted itineraries.</p>
+                </div>
+                <div class="search-container">
+                    <form class="search-form">
+                        <div class="input-group">
+                            <label for="location">
+                                <img class="locationimg" src="./images/locationInputimg.svg" alt="Location Image">
+                                Locations
+                            </label>
+                            <input type="text" id="location" placeholder="e.g Bali, Indonesia">
+                        </div>
+                        <div class="line"></div>
+                        <div class="input-group">
+                            <label for="date">
+                                <img class="dateimg" src="./images/date-time.svg" alt="Date Icon">
+                                Date and time
+                            </label>
+                            <input type="date" id="date" placeholder="MM/DD/YYYY" class="no-calendar-icon">
+                        </div>
+                        <button class="search" type="submit">
+                            <img class="searchimg" src="./images/search-normal.svg" alt="Search Icon">
+                        </button>
+                    </form>
+                </div>
+                <div class="apps-img">
+                    <span class="followUs">Follow Us</span>
+                    <a href="" target="blank">
+                        <img alt="Facebook" src="./images/fb.svg">
+                    </a>
+                    <a href="" target="blank" class="">
+                        <img alt="Insta" src="./images/instagram.svg">
+                    </a>
+                    <a href="" target="blank" class="">
+                        <img alt="Twitter" src="./images/twitter.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="bannerRight">
+                <div class="mainImg">
+                    <div class="productCard">
+                        <img class="productCardImg" src="./images/productCardImg.svg" alt="Product Card Image">
+                        <div class="content">
+                            <div class="text">
+                                <h6>Coco De Heaven</h6>
+                                <p>Starts from <strong><span>$</span>400</strong></p>
+                            </div>
+                            <div class="rating">
+                                <img class="ratingImg" src="./images/rating.svg" alt="Rating Icon"><span>(4.5)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="bannerImg" src="./images/banner.svg" alt="Banner Image">
+                    <img class="scrollDown" src="./images/scroll-down.svg" alt="Scroll Down Image">
+                </div>
+            </div>
+        </section>
+        <section class="ourTravelPartner">
+            <div class="left">Our Travel Partner</div>
+            <div class="right">
+                <img class="travelokaLogo" src="./images/traveloka-logo.svg" alt="Travel Logo">
+                <img class="airbnbLogo" src="./images/airbnb-logo.svg" alt="Airbnb Logo">
+                <img class="expediaLogo" src="./images/expedia-logo.svg" alt="Expedia Logo">
+                <img class="skyLogo" src="./images/skyscanner-logo.svg" alt="Sky Logo">
+                <img class="americanLogo" src="./images/american-airlines-logo.svg" alt="American Logo">
+            </div>
+        </section>
+
+        <section class="popularDestinations">
+            <div class="owl-container">
+                <div class="heading">
+                    <h2>Popular Destinations</h2>
+                    <p>See our popular destinations that our client choose</p>
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="sliderContainer">
+                            <img src="./images/slider/image1.svg" alt="Slider Image">
+                            <div class="slidercardcontent">
+                                <div class="details">
+                                    <h6>Venice, Italy</h6>
+                                    <p><span class="startfrom">Starts from</span> <span class="dol-color">$</span>
+                                        <strong>900</strong>
+                                    </p>
+                                </div>
+                                <span class="sliderrating">
+                                    <img class="sliderStar" src="./images/rating.svg" alt="Rating Icon"> <span>(4.5)</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sliderContainer">
+                            <img src="./images/slider/image2.svg" alt="Slider Image">
+                            <div class="slidercardcontent">
+                                <div class="details">
+                                    <h6>Bali, Indonesia</h6>
+                                    <p><span class="startfrom">Starts from</span> <span class="dol-color">$</span>
+                                        <strong>480</strong>
+                                    </p>
+                                </div>
+                                <span class="sliderrating">
+                                    <img class="sliderStar" src="./images/rating.svg" alt="Rating Icon"> <span>(4.5)</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sliderContainer">
+                            <img src="./images/slider/image3.svg" alt="Slider Image">
+                            <div class="slidercardcontent">
+                                <div class="details">
+                                    <h6>Bangkok</h6>
+                                    <p><span class="startfrom">Starts from</span> <span class="dol-color">$</span>
+                                        <strong>440</strong>
+                                    </p>
+                                </div>
+                                <span class="sliderrating">
+                                    <img class="sliderStar" src="./images/rating.svg" alt="Rating Icon"> <span>(4.5)</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sliderContainer">
+                            <img src="./images/slider/image4.svg" alt="Slider Image">
+                            <div class="slidercardcontent">
+                                <div class="details">
+                                    <h6>Santorini</h6>
+                                    <p><span class="startfrom">Starts from</span> <span class="dol-color">$</span>
+                                        <strong>900</strong>
+                                    </p>
+                                </div>
+                                <span class="sliderrating">
+                                    <img class="sliderStar" src="./images/rating.svg" alt="Rating Icon"> <span>(4.5)</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="travelServies">
+            <div class="left">
+                <h3>Embark on unforgettable journeys with our premium travel services</h3>
+                <p class="picturePerfect">Picture-perfect getaways are just a click away. Find your slice of paradise,
+                    whether it's a tropical
+                    island, a charming city, or an enchanting countryside retreat.</p>
+                <div class="serviceCard">
+                    <div class="serviceWrapper">
+                        <div class="serviceContent">
+                            <span class="sno">1</span>
+                            <span class="heading">
+                                <h5>Best Choice</h5>
+                                <p>We always prioritize our customer comfort and satisfaction. That’s why we only accept
+                                    the
+                                    best hotel and destination</p>
+                            </span>
+                        </div>
+                        <div class="serviceContent">
+                            <span class="sno">2</span>
+                            <span class="heading">
+                                <h5>Competitive Prices</h5>
+                                <p>Altough the price tends to be cheaper but it will not affect the quality of service
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="serviceContent">
+                        <span class="sno">3</span>
+                        <span class="heading">
+                            <h5>Refund and Reschedule</h5>
+                            <p>Don’t worry if suddenly you have problem and want to reschule or refund, you can get
+                                fully.</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="satisfiedCustomer">
+                    <img src="./images/premium-services/ps-cardImg.svg" alt="PS-Card Image">
+                    <div class="content">
+                        <p><span>10K+</span> Satisfied Customer</p>
+                    </div>
+                </div>
+                <img class="ecllipsImg" src="./images/premium-services/ps-ellipse.svg" alt="Ecllips Image">
+                <div class="rowOneImg">
+                    <img src="./images/premium-services/ps-Image1.svg" alt="Ps-Image">
+                </div>
+                <div class="rowTwoImg">
+                    <div class="one">
+                        <img src="./images/premium-services/ps-Image2.svg" alt="PS-Image">
+                    </div>
+                    <div class="two">
+                        <img src="./images/premium-services/ps-Image3.svg" alt="PS-Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ourServices">
+            <div class="left">
+                <div class="productCard osproductcard">
+                    <img class="productCardImg" src="./images/productCardImg.svg" alt="Product Card Image">
+                    <div class="content">
+                        <div class="text">
+                            <h6>Heaven Resort</h6>
+                            <p>Starts from <strong><span>$</span>450</strong></p>
+                        </div>
+                        <div class="rating">
+                            <img class="ratingImg" src="./images/rating.svg" alt="Rating Icon"><span>(4.8)</span>
+                        </div>
+                    </div>
+                </div>
+                <img class="ourServicesImg" src="./images/our-service/os-Image.svg" alt="Our Service Image">
+                <div class="tourCard">
+                    <img src="./images/our-service/os-cardimg.svg" alt="Our Service Card Image">
+                    <div class="cardDetails">
+                        <h6>Jake Anderson</h6>
+                        <p>Best Tour Guide</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <h3>With Our Service We Will Explore Something Different</h3>
+                <p>Uncover hidden gems and immerse yourself in vibrant cultures. From breathtaking landscapes to
+                    awe-inspiring destinations, let us guide you to the most extraordinary places on the planet.</p>
+                <div class="buttons"></div>
+                <button class="login-btn explore-btn">Explore more</button>
+            </div>
+        </section>
+
+        <section class="reviewContainer">
+            <div class="row cusScroll">
+                <div class="col">
+                    <div class="reviewCard">
+                        <div class="rating">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                        </div>
+                        <p>"An outstanding resource for travel enthusiasts! The website's destination reviews and travel
+                            advice were spot-on. I now trust their recommendations for all my trips.."</p>
+                        <div class="tourCard userreview">
+                            <img src="./images/our-service/os-cardimg.svg" alt="Our Service Card Image">
+                            <div class="cardDetails">
+                                <h6>Jake Anderson</h6>
+                                <p>Best Tour Guide</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewCard">
+                        <div class="rating">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                        </div>
+                        <p>"I had a seamless booking process with this travel website. Their website was easy to
+                            navigate, and I got fantastic deals on flights and accommodation. Will definitely use them
+                            for future trips."</p>
+                        <div class="tourCard userreview">
+                            <img src="./images/our-service/os-cardimg.svg" alt="Our Service Card Image">
+                            <div class="cardDetails">
+                                <h6>Akbar Cenglu</h6>
+                                <p>Travel Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewCard">
+                        <div class="rating">
+                            <img src="./images/rating.svg" alt="Rating Image">
+                            <img src="./images/rating.svg" alt="Rating Image">
+                            <img src="./images/rating.svg" alt="Rating Image">
+                            <img src="./images/rating.svg" alt="Rating Image">
+                            <img src="./images/rating-dis.svg" alt="Rating Image">
+                        </div>
+                        <p>"The detailed travel guides provided by this website were invaluable during our journey. We
+                            felt confident exploring a new destination, thanks to their helpful tips and insights.
+                            erat."</p>
+                        <div class="tourCard userreview">
+                            <img src="./images/our-service/os-cardimg.svg" alt="Our Service Card Image">
+                            <div class="cardDetails">
+                                <h6>Jake Paul</h6>
+                                <p>Travel Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col2">
+                    <div class="reviewCard">
+                        <div class="rating">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                        </div>
+                        <p>"Amazing experience! The travel website made booking our vacation a breeze. Everything was
+                            well-organized, and we had a fantastic time exploring new places. Highly recommend!"</p>
+                        <div class="tourCard userreview">
+                            <img src="./images/our-service/os-cardimg.svg" alt="Our Service Card Image">
+                            <div class="cardDetails">
+                                <h6>Nichole Edward</h6>
+                                <p>Travel Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewCard">
+                        <div class="rating">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating-dis.svg" alt="Rating Icon">
+                        </div>
+                        <p>"The travel website's customer service is top-notch! They were quick to respond to my queries
+                            and helped me plan a dream vacation. It was an excellent experience from start to finish."
+                        </p>
+                        <div class="tourCard userreview">
+                            <img src="./images/our-service/os-cardimg.svg" alt="Our Service card Image">
+                            <div class="cardDetails">
+                                <h6>Jennice Ong</h6>
+                                <p>Travel Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewCard">
+                        <div class="rating">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                        </div>
+                        <p>"Hands down the best travel website I've ever used! The user interface was so intuitive, and
+                            I was able to book my dream vacation effortlessly. erat."</p>
+                        <div class="tourCard userreview">
+                            <img src="./images/our-service/os-cardimg.svg" alt="Our Service Card Image">
+                            <div class="cardDetails">
+                                <h6>Jake Anderson</h6>
+                                <p>Travel Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col3">
+                    <div class="reviewCard">
+                        <div class="rating">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                        </div>
+                        <p>"Lorem ipsum dolor sit amet, Efficient and reliable! The travel website helped me find the
+                            best travel deals, and their user-friendly interface made the booking process a breeze."</p>
+                        <div class="tourCard userreview">
+                            <img src="./images/our-service/os-cardimg.svg" alt="Our Service Card Image">
+                            <div class="cardDetails">
+                                <h6>JJonathan R.</h6>
+                                <p>Travel Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewCard">
+                        <div class="rating">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating-dis.svg" alt="Rating Icon">
+                        </div>
+                        <p>"I loved the personalized itinerary feature of this travel website. It allowed me to plan my
+                            trip according to my preferences, making it a truly customized experience."</p>
+                        <div class="tourCard userreview">
+                            <img src="./images/our-service/os-cardimg.svg" alt="Our Service Card Image">
+                            <div class="cardDetails">
+                                <h6>Angela Cole</h6>
+                                <p>Travel Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewCard">
+                        <div class="rating">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                            <img src="./images/rating.svg" alt="Rating Icon">
+                        </div>
+                        <p>"A one-stop-shop for all things travel! The website's variety of travel options and user
+                            reviews helped me make informed decisions and ensured a smooth trip."</p>
+                        <div class="tourCard userreview">
+                            <img src="./images/our-service/os-cardimg.svg" alt="Our Service Card Image">
+                            <div class="cardDetails">
+                                <h6>Bambang Susilo</h6>
+                                <p>Travel Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="newsletter-container">
+        <div class="newsletter-content">
+            <div class="locationimgg">
+                <img src="./images/news-letter/locationimg.svg" alt="Location Icon">
+            </div>
+            <div class="newsletter-text">
+                <h2>Join our newsletter to stay up to date</h2>
+                <p>Stay connected with our brand</p>
+            </div>
+            <div class="newsletter-form">
+                <div class="newinputwrapper">
+                    <img class="newsemailicon" src="./images/news-letter/sms.svg" alt="Emain Icon">
+                    <input type="email" placeholder="Enter your email">
+                </div>
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="logo"><img src="./images/Logo.svg" alt="Logo Image"></div>
+                <p>Wanderlust meets wander well –<br> Experience seamless travel with our services.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#"> <img class="footerimg" src="./images/footer/Facebook.svg" alt="Facebook Icon">
+                                Facebook</a></li>
+                        <li><a href="#"> <img class="footerimg" src="./images/footer/Instagram.svg" alt="Instagram Icon">
+                                Instagram</a></li>
+                        <li><a href="#"> <img class="footerimg" src="./images/footer/Twitter.svg" alt="Twitter Icon">
+                                Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2023 Logoipsum. All rights reserved.</p>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookies Settings</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
